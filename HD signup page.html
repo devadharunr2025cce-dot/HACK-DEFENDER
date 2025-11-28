@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>Hack Defender - Sign Up</title>
+<style>
+  body {
+    background-image: url('https://media.istockphoto.com/id/1419766496/photo/abstract-concepts-of-cybersecurity-technology-and-digital-data-protection-protect-internet.webp?b=1&s=612x612&w=0&k=20&c=mMG_-IOsy9IOupqSDvEbeqduD-LGZ3bBp1fZ5pXoIwA=');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+
+  form {
+    width: 330px;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 12px;
+    background-color:white;
+    color: black;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px 0;
+    border-radius: 6px;
+    border: 1px solid black;
+    font-size: 15px;
+  }
+
+  .login-box {
+    padding: 10px 20px;
+    background-color:blue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 120px;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .login-box:hover {
+    background-color:slateblue;
+  }
+
+  .gender-options {
+    margin: 10px 0 15px 0;
+  }
+</style>
+</head>
+
+<body>
+
+<h1 align="center" style="color:red" id="intro">
+  <img src="logo.jpg" height="35" width="35"> HACK DEFENDER
+</h1>
+
+<h2 align="center">SIGN UP</h2>
+
+<form onsubmit="return check()">
+  <label>USER NAME:</label>
+  <input type="text" placeholder="Enter name">
+
+  <label>PASSWORD:</label>
+  <input type="password" placeholder="Enter password">
+
+  <label>CONFIRM PASSWORD:</label>
+  <input type="password" placeholder="Re-enter password">
+
+  <label>DATE OF BIRTH:</label>
+  <input type="date" required>
+
+  <label>EMAIL ADDRESS:</label>
+  <input type="email" placeholder="Enter email">
+
+  <label>GENDER:</label>
+  <div class="gender-options">
+    <input type="radio" name="gender"> Male &nbsp;&nbsp;
+    <input type="radio" name="gender"> Female
+  </div>
+
+  <div align="center">
+    <button type="submit"  class="login-box" onclick="window.location.href='file:///C:/Users/praba/OneDrive/Documents/college/ADD/HTML/HD.html'">SIGN IN</button>
+    <button class="login-box" onclick="window.location.href='HD INTRO.html'">BACK</button>
+  </div>
+</form>
+
+</body>
+</html>
